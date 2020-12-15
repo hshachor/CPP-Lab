@@ -16,7 +16,7 @@ protected:
     {
     public:
         // constructor
-        Link(int linkValue = 0, Link* nextPtr = NULL);
+        Link(int linkValue, Link* nextPtr);
         Link(const Link&);
 
         // data areas
